@@ -86,7 +86,7 @@ async def start_command(client: Client, message: Message):
                     reply_markup=reply_markup,
                     protect_content=PROTECT_CONTENT
                 )
-                alert = await message.reply('<a href="https://t.me/+5w5NhnxWNuxiMTdl">Zee Kannada</a>\n<a href="https://t.me/+eyStLOpHapMzNGZl">Colors Kannada</a>\n<a href="https://t.me/+a1lv-BSLVk4wYzE9">Star Suvarna</a>\n<a href="https://t.me/+IStRuJMAzAZlMjU1">Old Episode</a>')
+                alert = await message.reply('<a href="https://t.me/+5w5NhnxWNuxiMTdl">😍Zee Kannada👈</a>\n<a href="https://t.me/+eyStLOpHapMzNGZl">😍Colors Kannada👈</a>\n<a href="https://t.me/+a1lv-BSLVk4wYzE9">😍Star Suvarna👈</a>\n<a href="https://t.me/+IStRuJMAzAZlMjU1">😍Old Episode👈</a>')
                 await asyncio.sleep(120)
                 await alert.delete()
             except FloodWait as error:
