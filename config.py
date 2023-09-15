@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "╔┓┏╦━━╦┓╔┓╔━━-\n║┗┛║┗━╣┃║┃║ ^ ^ ✦\n║┏┓║┏━╣┗╣┗╣╰╯║\n╚┛┗╩━━╩━╩━╩━━╝\n\n\n<b>Hello {first}\nI am a bot which will provide you files instantly which are shared in @Kan_Serial and @SB_SERIALS </b>\n\n⚠Kindly Please join my channel - Serial Adda and Kannada Channels Link / ದಯವಿಟ್ಟು ನನ್ನನ್ನು ಬಳಸಲು ಚಾನಲ್‌ಗೆ ಸೇರಿಕೊಳ್ಳಿ⚠")
+START_MSG = os.environ.get("START_MESSAGE", "╔┓┏╦━━╦┓╔┓╔━━-\n║┗┛║┗━╣┃║┃║ ^ ^ ✦\n║┏┓║┏━╣┗╣┗╣╰╯║\n╚┛┗╩━━╩━╩━╩━━╝\n\n\n<b>ಬಾಟ್‌ಗೆ ಸುಸ್ವಾಗತ Mr/Miss {first}\n</b>\n\n <a href="https://t.me/SB_SERIALS">click On Me</a> / <a href="https://t.me/Kan_Serial">ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿಿ</a>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -46,7 +46,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>Kindly Please Join My Channel : <a href='https://telegram.me/+kQS5TtxyNBVjNjg1/'> / ದಯವಿಟ್ಟು ನನ್ನನ್ನು ಬಳಸಲು ಚಾನಲ್‌ಗೆ ಸೇರಿಕೊಳ್ಳಿ : <a href='https://telegram.me/+kQS5TtxyNBVjNjg1 /'></b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>Kindly Please Join My Channel : https://telegram.me/+kQS5TtxyNBVjNjg1 / ದಯವಿಟ್ಟು ನನ್ನನ್ನು ಚಾನಲ್‌ಗೆ ಸೇರಿಕೊಳ್ಳಿ</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
